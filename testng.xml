@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Parallel Test Suite" parallel="methods">
+    <test name="Browser Nav">
+        <classes>
+            <class name="io.automatenow.TestBrowserNav"/>
+        </classes>
+    </test>
+</suite>
